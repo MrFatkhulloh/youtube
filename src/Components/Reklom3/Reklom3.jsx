@@ -61,7 +61,6 @@ function Reklom3() {
 				(datum) => users.id === datum.albumId
 			);
 			setData(filteredData);
-			console.log(data);
 		}
 		try {
 		} catch (err) {

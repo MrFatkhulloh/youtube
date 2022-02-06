@@ -10,7 +10,6 @@ import oval1 from './../../Assets/Images/Channel/Oval1.png';
 import SearchOutlinedIcon from '@mui/icons-material/SearchOutlined';
 
 function Channel({ users }) {
-	console.log(users);
 	const { id } = useParams();
 	const [isRendered, setRendered] = React.useState(false);
 
@@ -42,7 +41,6 @@ function Channel({ users }) {
 			const filteredData = data2.filter(
 				(datum) => datum.albumId == foundUser.id
 			);
-			console.log(filteredData);
 			setData(filteredData);
 			setRendered(true);
 		})();

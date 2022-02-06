@@ -29,7 +29,6 @@ import SettingsOutlinedIcon from '@mui/icons-material/SettingsOutlined';
 import ViewHeadlineRoundedIcon from '@mui/icons-material/ViewHeadlineRounded';
 
 function Aside({ page }) {
-	console.log(page);
 	const [users, setUsers] = React.useState([]);
 	React.useEffect(() => {
 		fetch('https://reqres.in/api/users')

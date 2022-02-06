@@ -13,7 +13,6 @@ function Recommended() {
 				const data1 = await resposnse.json();
 				if (data1?.length) {
 					const slicedData = data1.slice(450, 500);
-					console.log(slicedData);
 					setData(slicedData);
 				}
 			} catch (err) {
