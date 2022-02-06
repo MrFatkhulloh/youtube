@@ -1,0 +1,58 @@
+.mainRecommended__nav {
+	font-family: Mulish;
+	max-height: 375px;
+	margin-bottom: 50px;
+	&__heading--wrapper {
+		margin-bottom: 30px;
+	}
+
+	&__heading {
+		margin: 0;
+		margin-top: 10px;
+		margin-left: 20px;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 26px;
+		line-height: 33px;
+		color: #ffffff;
+	}
+
+	&__list {
+		padding-left: 0;
+		overflow: hidden;
+		&__item {
+			margin-right: 40px;
+		}
+
+		&__link {
+			&__heading {
+				margin: 0;
+				margin-bottom: 4px;
+				font-family: Mulish;
+				font-style: normal;
+				font-weight: bold;
+				font-size: 16px;
+				line-height: 20px;
+				color: #ffffff;
+			}
+
+			&__text-wrapper {
+				width: 100%;
+			}
+
+			&__text {
+				margin: 0;
+				font-size: 13px;
+				line-height: 16px;
+				color: #ffffff;
+				mix-blend-mode: normal;
+				opacity: 0.4;
+			}
+		}
+
+		&__link img {
+			border-radius: 14px;
+			margin-bottom: 10px;
+		}
+	}
+}
